@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+h1{
+  text-decoration: underline;
+  color: blue;
+}
+form{
+  text-align:left;
+  width:190px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+
+
+  table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  background-color: blue;
+  color:white;
+  
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+</style>
+<body>
+     <!-- Dont make any changes here -->
+     <h1>Hospital - Doctor Records</h1>
+
+     <div>
+       <!-- ***** We are using form here  ****  -->
+       <form>
+         <label for="">Doctor Name</label><br />
+         <input id="name" type="text" placeholder="Enter Student Name" /><br />
+         <label for="">Doctor ID</label><br />
+         <input
+           id="employeeID"
+           type="number"
+           placeholder="Enter Employee ID"
+         /><br />
+         <label for="">Specialization </label><br />
+         <select id="department">
+           <option value="">Select Specialization</option>
+           <option value="Frontend">Dermatologist</option>
+           <option value="Backend">ENT</option>
+           <option value="Operations">Dentist</option>
+           <option value="HR">COVID</option>
+           <option value="IA">Gyneclogist</option></select
+         ><br />
+         <label for="">Experience </label><br />
+         <input id="exp" type="number" placeholder="Experience in Years" /><br />
+         <label for="">Email Address </label><br />
+         <input type="text" id="email" placeholder="Enter Email Address" /><br />
+         <label for="">Mobile Number </label><br />
+         <input id="mbl" type="number" placeholder="Enter Mobile number" /><br />
+         <input type="submit" />
+       </form>
+       <table>
+         <!-- Dont change order of columns -->
+         <thead>
+           <tr>
+             <th>Name</th>
+             <th>Doctor ID</th>
+             <th>Specialization</th>
+             <th>Experience in years</th>
+             <th>Email address</th>
+             <th>Mobile Number</th>
+             <th>Role</th>
+             <th>Delete</th>
+           </tr>
+         </thead>
+         <tbody>
+           <!-- Append your output here -->
+         </tbody>
+       </table>
+     </div>
+</body>
+</html>
